@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 179c75e323985bd4aaafbb795fba104d
+guid: 42d5e47991d4c76468c351d95f2c1fee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5257049679994973121
-    second: cercleEvolution_0
+      213: 6715428226465388384
+    second: cercleEvolutionV2_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cercleEvolution_0
+      name: cercleEvolutionV2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3491594b253b07b0800000000000000
-      internalID: -5257049679994973121
+      spriteID: 067d911646ef13d50800000000000000
+      internalID: 6715428226465388384
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cercleEvolution_0: -5257049679994973121
+      cercleEvolutionV2_0: 6715428226465388384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1074,8 +1074,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quit Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 370b2a36fd794a14d852d2eb20c6b4d4, type: 2}
-  m_sharedMaterial: {fileID: -1550141652626632663, guid: bf471ff109c158a40ae3b3cda51b26d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c02f1f77f93a944d88c8ef8a8b79bdf, type: 2}
+  m_sharedMaterial: {fileID: -5865019517541327524, guid: 0c02f1f77f93a944d88c8ef8a8b79bdf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2286,8 +2286,8 @@ MonoBehaviour:
     Thibaut Ruellan, Marc Nebout, Marion Caron & Valentin
     Tran'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bf471ff109c158a40ae3b3cda51b26d2, type: 2}
-  m_sharedMaterial: {fileID: -1550141652626632663, guid: bf471ff109c158a40ae3b3cda51b26d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c02f1f77f93a944d88c8ef8a8b79bdf, type: 2}
+  m_sharedMaterial: {fileID: -5865019517541327524, guid: 0c02f1f77f93a944d88c8ef8a8b79bdf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2735,8 +2735,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 370b2a36fd794a14d852d2eb20c6b4d4, type: 2}
-  m_sharedMaterial: {fileID: -1550141652626632663, guid: bf471ff109c158a40ae3b3cda51b26d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c02f1f77f93a944d88c8ef8a8b79bdf, type: 2}
+  m_sharedMaterial: {fileID: -5865019517541327524, guid: 0c02f1f77f93a944d88c8ef8a8b79bdf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
