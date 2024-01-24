@@ -27,26 +27,29 @@ public class FruitCombiner : MonoBehaviour
 
                     int thisID = gameObject.GetInstanceID();
                     int otherID = collision.gameObject.GetInstanceID();
-
-                    if (_info.FruitIndex == FruitSelector.instance.Fruits.Length -1)
+                    if (thisID > otherID)
                     {
-                        Destroy(collision.gameObject);
-                        Destroy(gameObject);
-                    }
-                    else
-                    {
-                        Vector3 middlePosition = (transform.position + collision.transform.position) / 2f;
-                        GameObject go = Instantiate(SpawnCombinedFruit(_info.FruitIndex), GameManager.instance.transform);
-                        go.transform.position = middlePosition;
-
-                        ColliderInformer informer = go.GetComponent<ColliderInformer>();
-                        if (informer != null)
+                        GameManager.instance.IncreaseScore(_info.PointWhenAnnihilated);
+                        if (_info.FruitIndex == FruitSelector.instance.Fruits.Length - 1)
                         {
-                            informer.WasCombinedIn = true;
+                            Destroy(collision.gameObject);
+                            Destroy(gameObject);
                         }
+                        else
+                        {
+                            Vector3 middlePosition = (transform.position + collision.transform.position) / 2f;
+                            GameObject go = Instantiate(SpawnCombinedFruit(_info.FruitIndex), GameManager.instance.transform);
+                            go.transform.position = middlePosition;
 
-                        Destroy(collision.gameObject);
-                        Destroy(gameObject);
+                            ColliderInformer informer = go.GetComponent<ColliderInformer>();
+                            if (informer != null)
+                            {
+                                informer.WasCombinedIn = true;
+                            }
+
+                            Destroy(collision.gameObject);
+                            Destroy(gameObject);
+                        }
                     }
                 }
             }

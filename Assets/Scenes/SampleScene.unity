@@ -1156,7 +1156,16 @@ MonoBehaviour:
   - {fileID: 8249208728525902047, guid: b860d6f8e557af64889334f6bff38c50, type: 3}
   HighestStartingIndex: 3
   _nextFruitImage: {fileID: 852307642}
-  _fruitSprites: []
+  _fruitSprites:
+  - {fileID: 21300000, guid: a26e2ba3993cd7240bfd6d3b38c34093, type: 3}
+  - {fileID: 21300000, guid: 699507511abea074589c6f16dbff0271, type: 3}
+  - {fileID: 21300000, guid: 155e51f461a466d45b13c37aa3c803ad, type: 3}
+  - {fileID: 21300000, guid: 89358167136ae8c43b369bccb14568ef, type: 3}
+  - {fileID: 21300000, guid: e039754f5a7300147b0d8636dcf889db, type: 3}
+  - {fileID: 21300000, guid: b6e6acc36e1fef54791b578da4a4c997, type: 3}
+  - {fileID: 21300000, guid: 3e4c2c3af98b6314f959e1b3162f0273, type: 3}
+  - {fileID: 21300000, guid: 9eef5bd6636b9884d85365c89f6a8a6c, type: 3}
+  - {fileID: 21300000, guid: c3348299f40fe5642a87e6c94c8e67db, type: 3}
 --- !u!114 &830743330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2840,7 +2849,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 2.34, z: 0}
   - {x: 0, y: -3.6210005, z: 0}
