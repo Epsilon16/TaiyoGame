@@ -1023,6 +1023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 830743328}
   - component: {fileID: 830743329}
+  - component: {fileID: 830743330}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1081,6 +1082,18 @@ MonoBehaviour:
   HighestStartingIndex: 3
   _nextFruitImage: {fileID: 852307642}
   _fruitSprites: []
+--- !u!114 &830743330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830743327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3eb59bd7519d3409e2148af284bb10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &852307640
 GameObject:
   m_ObjectHideFlags: 0
