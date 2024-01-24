@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e91938ee24c64be4fbbb4ede8645d3bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Demo/Scripts/ChangeMaterial.cs
+  uploadId: 596995

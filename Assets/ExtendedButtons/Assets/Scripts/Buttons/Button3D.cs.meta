@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: acca2ceb6bd8cda4295c7efaf8a3750a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Assets/Scripts/Buttons/Button3D.cs
+  uploadId: 596995

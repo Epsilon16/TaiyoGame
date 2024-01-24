@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb29d3f8e5964834893fba772b9e0e95
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Demo/Scenes/ButtonListenerBasicExtendedButtons.unity
+  uploadId: 596995

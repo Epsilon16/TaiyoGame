@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0ab8d635601f5ed42819acc137b57f69
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Assets/Scripts/Listeners/IButtonsListener.cs
+  uploadId: 596995

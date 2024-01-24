@@ -14,4 +14,9 @@ public class ButtonManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void EnterAnim()
+    {
+        GetComponent<Animation>().Play("Button_Pressed");
+    }
 }

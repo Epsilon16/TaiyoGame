@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7e925fcc1d5e0ea4bb35fe7904eef627
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Assets/Editor/Button2DEditor.cs
+  uploadId: 596995

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d29607c75c01661409fdb588dd8d58ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Assets/Scripts/Listeners/ButtonsListenerBasicObsolete.cs
+  uploadId: 596995

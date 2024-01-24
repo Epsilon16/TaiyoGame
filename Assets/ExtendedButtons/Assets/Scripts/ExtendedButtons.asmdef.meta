@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 674a810bef035764499d2317cd66d86f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 152732
+  packageName: Extended Buttons
+  packageVersion: 1.5
+  assetPath: Assets/ExtendedButtons/Assets/Scripts/ExtendedButtons.asmdef
+  uploadId: 596995
