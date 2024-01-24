@@ -8,6 +8,8 @@ public class FruitCombiner : MonoBehaviour
 
     private FruitInfo _info;
 
+    [SerializeField] private GameObject effect;
+
     private void Awake()
     {
         _info = GetComponent<FruitInfo>();
@@ -45,6 +47,7 @@ public class FruitCombiner : MonoBehaviour
                             if (informer != null)
                             {
                                 informer.WasCombinedIn = true;
+                                GameObject spawn = Instantiate(effect, middlePosition, transform.rotation);
                             }
 
                             Destroy(collision.gameObject);
