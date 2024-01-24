@@ -23,6 +23,8 @@ public class FruitCombiner : MonoBehaviour
             {
                 if (info.FruitIndex == _info.FruitIndex)
                 {
+                    GameManager.instance.IncreaseScore(_info.PointWhenAnnihilated);
+
                     int thisID = gameObject.GetInstanceID();
                     int otherID = collision.gameObject.GetInstanceID();
 

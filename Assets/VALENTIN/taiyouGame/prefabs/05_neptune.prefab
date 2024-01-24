@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: -6246472251055946972}
   - component: {fileID: -8609274666544009783}
   - component: {fileID: -4074407823011728807}
-  m_Layer: 0
+  - component: {fileID: 1316144198846556731}
+  m_Layer: 8
   m_Name: 05_neptune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FruitIndex: 4
-  PointWhenAnnihilated: 1
+  PointWhenAnnihilated: 13
   FruitMass: 5
 --- !u!114 &-4074407823011728807
 MonoBehaviour:
@@ -189,5 +190,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 487673b1e2c689449b748dc7fa5365e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1316144198846556731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188704043790035318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f1e2b6b4ee1b745afc307999509359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
