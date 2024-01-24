@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
 
         _startingLeftBound = _leftBound;
         _startingRightBound = _rightBound;
+
+        
     }
 
     private void Update()

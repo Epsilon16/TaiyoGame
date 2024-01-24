@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
         }
 
         _scoreText.text = CurrentScore.ToString("0");
+
+        Cursor.visible = false;
     }
 
     public void IncreaseScore (int amount)
@@ -65,7 +67,9 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Cursor.visible = true;
+        SceneManager.LoadScene(0);
     }
 
     private void FadeGame(Scene scene, LoadSceneMode mode)
