@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 9129111708479733008}
   - component: {fileID: 5569962526767111271}
   - component: {fileID: 5332923435333635697}
+  - component: {fileID: -3115786186425786747}
+  - component: {fileID: -858259420301202565}
+  - component: {fileID: -2521659353428704408}
   m_Layer: 0
   m_Name: 07_saturn
   m_TagString: Untagged
@@ -75,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: 3e4c2c3af98b6314f959e1b3162f0273, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -135,7 +138,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 50
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 1
@@ -146,7 +149,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -196,3 +199,42 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.092274, y: 0.36659724}
   m_EdgeRadius: 0
+--- !u!114 &-3115786186425786747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904298278943543455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80d2f9293294e743b8234143ab525cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-858259420301202565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904298278943543455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee673bd3dd4acd64d847b519eb798371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FruitIndex: 6
+  PointWhenAnnihilated: 1
+  FruitMass: 3
+--- !u!114 &-2521659353428704408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6904298278943543455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487673b1e2c689449b748dc7fa5365e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
