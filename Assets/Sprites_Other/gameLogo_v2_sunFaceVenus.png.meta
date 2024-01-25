@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gameLogo_v2_sunFaceVenus_0: -6301490861299613272
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

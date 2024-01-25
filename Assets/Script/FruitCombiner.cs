@@ -10,10 +10,16 @@ public class FruitCombiner : MonoBehaviour
 
     [SerializeField] private GameObject effect;
 
+    private bool _prevented;
+
+    
+
     private void Awake()
     {
         _info = GetComponent<FruitInfo>();
         _layerIndex = gameObject.layer;
+        _prevented = false;
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -23,8 +29,9 @@ public class FruitCombiner : MonoBehaviour
             FruitInfo info = collision.gameObject.GetComponent<FruitInfo>();
             if(info != null)
             {
-                if (info.FruitIndex == _info.FruitIndex)
+                if (info.FruitIndex == _info.FruitIndex && !_prevented)
                 {
+                    _prevented = true;
                     GameManager.instance.IncreaseScore(_info.PointWhenAnnihilated);
 
                     int thisID = gameObject.GetInstanceID();
@@ -36,6 +43,11 @@ public class FruitCombiner : MonoBehaviour
                         {
                             Destroy(collision.gameObject);
                             Destroy(gameObject);
+                            if (_info.FruitIndex == 8)
+                            {
+                                GameObject spawn2 = Instantiate(effect, new Vector3(0,0,0), Quaternion.EulerAngles(-90,0,0));
+                                
+                            }
                         }
                         else
                         {
