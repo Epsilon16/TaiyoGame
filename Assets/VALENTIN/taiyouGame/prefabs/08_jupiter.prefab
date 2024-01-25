@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 3092635905955991569}
   m_Layer: 8
   m_Name: 08_jupiter
-  m_TagString: Untagged
+  m_TagString: Planete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

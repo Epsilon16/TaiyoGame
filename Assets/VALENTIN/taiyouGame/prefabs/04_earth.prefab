@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: -6905846559370422913}
   m_Layer: 8
   m_Name: 04_earth
-  m_TagString: Untagged
+  m_TagString: Planete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

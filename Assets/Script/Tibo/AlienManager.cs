@@ -24,19 +24,17 @@ public class AlienManager : MonoBehaviour
 
         if (UserInput.isThrowPressed && THrowFruitController.instance.CanThrow && !isSunHere && !alienUsed)
         {
-            Debug.Log("AAAH");
-
             GameObject[] allPlanetes = GameObject.FindGameObjectsWithTag("Planete");
 
             bigenough = false;
             for (int i = 0; i < allPlanetes.Length; i++)
             {
-                if (allPlanetes[i].GetComponent<SpriteIndex>().Index >= 5)
+                if (allPlanetes[i].GetComponent<FruitInfo>().FruitIndex >= 5)
                 {
                     bigenough = true;
                 }
 
-                if (allPlanetes[i].GetComponent<SpriteIndex>().Index == 8)
+                if (allPlanetes[i].GetComponent<FruitInfo>().FruitIndex == 8)
                 {
                     isSunHere = true;
                 }

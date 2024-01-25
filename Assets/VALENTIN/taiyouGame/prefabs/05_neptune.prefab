@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 4577872659053606054}
   m_Layer: 8
   m_Name: 05_neptune
-  m_TagString: Untagged
+  m_TagString: Planete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: -9066371712286561017}
   m_Layer: 8
   m_Name: 02_mars
-  m_TagString: Untagged
+  m_TagString: Planete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: -6215309052648342810}
   m_Layer: 8
   m_Name: 06_uranus
-  m_TagString: Untagged
+  m_TagString: Planete
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
