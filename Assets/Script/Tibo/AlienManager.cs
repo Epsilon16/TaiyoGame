@@ -7,6 +7,7 @@ public class AlienManager : MonoBehaviour
 {
     public GameObject alienPrefab;
     private GameObject currentAlien;
+    public GameObject targetPrefab;
 
     private bool bigenough = false;
     private int timeSet = 0;
@@ -53,8 +54,10 @@ public class AlienManager : MonoBehaviour
 
                 int randomPlanete = Random.Range(0, allPlanetes.Length);
                 currentAlien = Instantiate(alienPrefab, transform.position, transform.rotation);
-                //SpawnCible
                 currentAlien.GetComponent<AlienBehavior>().target = allPlanetes[randomPlanete];
+
+                GameObject targetClone = Instantiate(targetPrefab, allPlanetes[randomPlanete].transform.position, transform.rotation);
+                targetClone.transform.parent = allPlanetes[randomPlanete].transform;
             }
         }
     }
