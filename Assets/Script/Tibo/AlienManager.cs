@@ -40,15 +40,16 @@ public class AlienManager : MonoBehaviour
                 }
             }
 
-            if (timeSet != 0)
+            if (timeSet == 0)
             {
-                timeSet = Random.Range(1, 6);
+                timeSet = Random.Range(5, 9);
             }
             timepassed++;
 
             if (timepassed >= timeSet && bigenough && !isSunHere)
             {
                 timeSet = 0;
+                timepassed = 0;
                 alienUsed = true;
 
                 int randomPlanete = Random.Range(0, allPlanetes.Length);
