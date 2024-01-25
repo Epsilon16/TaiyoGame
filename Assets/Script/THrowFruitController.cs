@@ -40,6 +40,7 @@ public class THrowFruitController : MonoBehaviour
     {
         if (UserInput.isThrowPressed && CanThrow)
         {
+            Debug.Log("fuck");
             SpriteIndex index = CurrentFruit.GetComponent<SpriteIndex>();
             Quaternion rot = CurrentFruit.transform.rotation;
 
