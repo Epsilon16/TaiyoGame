@@ -8,8 +8,6 @@ public class Set_Highscore : MonoBehaviour
 {
     private int highscore;
 
-    
-
     [SerializeField] private TextMeshProUGUI HighScoreText;
 
     private void Awake()
@@ -27,6 +25,4 @@ public class Set_Highscore : MonoBehaviour
             HighScoreText.text = highscore.ToString();
         }
     }
-
-
 }

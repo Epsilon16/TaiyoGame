@@ -9,7 +9,6 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] private GameObject Player;
     [SerializeField] private GameObject Panel;
 
-    
     public void StartGame()
     {
         SceneManager.LoadScene(1);
