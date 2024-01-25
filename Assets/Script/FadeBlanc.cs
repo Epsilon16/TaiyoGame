@@ -7,6 +7,7 @@ public class FadeBlanc : MonoBehaviour
 {
     [SerializeField] private GameObject Panel;
     public Animator anim;
+    public AudioClip son;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,7 @@ public class FadeBlanc : MonoBehaviour
         anim = Panel.GetComponent<Animator>();
         anim.Play("Fade_Blanc");
         StartCoroutine(passageSceneWin());
+        GetComponent<AudioSource>().PlayOneShot(son);
     }
 
     // Update is called once per frame
@@ -24,7 +26,11 @@ public class FadeBlanc : MonoBehaviour
 
     private IEnumerator passageSceneWin()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
+        GetComponent<AudioSource>().PlayOneShot(son);
+        yield return new WaitForSeconds(0.5f);
+        GetComponent<AudioSource>().PlayOneShot(son);
+        yield return new WaitForSeconds(2f);
         Cursor.visible = true;
         SceneManager.LoadScene(2);
     }

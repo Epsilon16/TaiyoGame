@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject Panel;
 
     [SerializeField] private GameObject Panel2;
-    private void OnEnable()
+    /*private void OnEnable()
     {
         SceneManager.sceneLoaded += FadeGame;
     }
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= FadeGame;
-    }
+    }*/
 
     private void Update()
     {
