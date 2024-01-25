@@ -44,7 +44,11 @@ public class AlienManager : MonoBehaviour
             {
                 timeSet = Random.Range(5, 9);
             }
-            timepassed++;
+
+            if (bigenough)
+            {
+                timepassed++;
+            }
 
             if (timepassed >= timeSet && bigenough && !isSunHere)
             {
