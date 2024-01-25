@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _fadeTime = 2f;
 
     public float TimeTillGameOver = 1.5f;
+
+    [SerializeField] private GameObject Player;
+    [SerializeField] private GameObject Panel;
+
+    [SerializeField] private GameObject Panel2;
     private void OnEnable()
     {
         SceneManager.sceneLoaded += FadeGame;
@@ -23,6 +28,16 @@ public class GameManager : MonoBehaviour
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= FadeGame;
+    }
+
+    private void Update()
+    {
+        if (UserInput.isPausePressed)
+        {
+            Player.SetActive(false);
+            Panel.SetActive(true);
+            Cursor.visible = true;
+        }
     }
     private void Awake()
     {
@@ -69,7 +84,15 @@ public class GameManager : MonoBehaviour
 
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Cursor.visible = true;
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
+        StartCoroutine(GameOverMenu());
+    }
+
+    private IEnumerator GameOverMenu()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Player.SetActive(false);
+        Panel2.SetActive(true);
     }
 
     private void FadeGame(Scene scene, LoadSceneMode mode)

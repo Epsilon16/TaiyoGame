@@ -11,8 +11,11 @@ public class UserInput : MonoBehaviour
 
     public static bool isThrowPressed { get; set; }
 
+    public static bool isPausePressed { get; set; }
+
     private InputAction _moveAction;
     private InputAction _throwAction;
+    private InputAction _PauseAction;
 
     private void Awake()
     {
@@ -20,6 +23,7 @@ public class UserInput : MonoBehaviour
 
         _moveAction = PlayerInput.actions["Move"];
         _throwAction = PlayerInput.actions["Throw"];
+        _PauseAction = PlayerInput.actions["Pause"];
     }
 
     private void Update()
@@ -27,5 +31,7 @@ public class UserInput : MonoBehaviour
         MoveInput = _moveAction.ReadValue<Vector2>();
 
         isThrowPressed = _throwAction.WasPressedThisFrame();
+
+        isPausePressed = _PauseAction.WasPressedThisFrame();
     }
 }
