@@ -9,15 +9,14 @@ public class AlienManager : MonoBehaviour
     private GameObject currentAlien;
     public GameObject targetPrefab;
 
-    private bool bigenough = false;
-    private int timeSet = 0;
-    private int timepassed;
-    private bool isSunHere = false;
-    private bool alienUsed = false;
+    [SerializeField] private bool bigenough = false;
+    [SerializeField] private int timeSet = 0;
+    [SerializeField] private int timepassed;
+    [SerializeField] private bool isSunHere = false;
+    [SerializeField] private bool alienUsed = false;
 
     void Update()
     {
-
         if (currentAlien == null)
         {
             alienUsed = false;
@@ -25,6 +24,8 @@ public class AlienManager : MonoBehaviour
 
         if (UserInput.isThrowPressed && THrowFruitController.instance.CanThrow && !isSunHere && !alienUsed)
         {
+            Debug.Log("AAAH");
+
             GameObject[] allPlanetes = GameObject.FindGameObjectsWithTag("Planete");
 
             bigenough = false;
