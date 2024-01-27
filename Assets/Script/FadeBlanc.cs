@@ -8,11 +8,15 @@ public class FadeBlanc : MonoBehaviour
     [SerializeField] private GameObject Panel;
     public Animator anim;
     public AudioClip son;
+
+    private Animation animdestroy;
     // Start is called before the first frame update
     void Start()
     {
+        animdestroy = GameObject.Find("Canvas").GetComponent<Animation>();
         Panel = GameObject.Find("PanelBlanc");
         anim = Panel.GetComponent<Animator>();
+        animdestroy.Play("Canvas_Explosion");
         anim.Play("Fade_Blanc");
         StartCoroutine(passageSceneWin());
         GetComponent<AudioSource>().PlayOneShot(son);
